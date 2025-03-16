@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: 1.8
-          distribution: 'adopt' # Use Zulu distribution
+          distribution: 'jre' # Use Zulu distribution
           
       - name: Change wrapper permissions
         run: chmod +x ./gradlew
